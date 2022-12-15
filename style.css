@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input {
+    padding: 15px;
+    font-size: 29px;
+}
+
+button {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.box {
+    border: solid black 2px;
+    padding: 30px;
+    background-color: rgba(53, 52, 52, 0.8);
+    color: white;
+    border-radius: 40px;
+}
+
+.downloadtime {
+    margin-top: 30px;
+}
