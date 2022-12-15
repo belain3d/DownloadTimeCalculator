@@ -10,6 +10,8 @@ body {
     font-size: 20px;
     height: 100vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1533709752211-118fcaf03312?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixid=MnwxfDB8MXxyYW5kb218MHx8aW50ZXJuZXR8fHx8fHwxNjcxMTI1OTA4&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1920');
+    /* background-image: url('https://source.unsplash.com/1920x1080/?internet'); */
 }
 
 input {
@@ -28,13 +30,26 @@ button {
 }
 
 .box {
+    display: inline-block;
+    clear: left;
+    text-align: center;
     border: solid black 2px;
     padding: 30px;
     background-color: rgba(53, 52, 52, 0.8);
     color: white;
     border-radius: 40px;
+    vertical-align: top;
 }
 
 .downloadtime {
     margin-top: 30px;
+}
+
+.downloadspeed {
+    margin-top: 10px;
+}
+
+select {
+    padding: 25px;
+    vertical-align: top;
 }

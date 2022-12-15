@@ -25,6 +25,17 @@
         
         <div class="downloadtime">
         <label>Download Time:</label>
-    
+        
+<?php
+
+$fileSize = $_POST['filesize'];
+$downloadSpeed = $_POST['downloadspeed'];
+$downloadWhole = (($fileSize / $downloadSpeed)/60);
+$downloadMin = floor($downloadWhole);
+$downloadSec = floor(($downloadWhole - $downloadMin)*60);
+
+echo "$downloadMin min $downloadSec sec";
+
+?>
 </body>
 </html>
